@@ -37,10 +37,11 @@ public class SubSequenceTest {
     SubSequence ss = new SubSequence();
     assertEquals("Values are not equal", ss.get("1110111011111"), "10");
   }
-  
+
   @Test
   public void testMoreZeros() {
     SubSequence ss = new SubSequence();
-    assertEquals("Values are not equal", ss.get("1000111000000111011111"), "111000");
+    assertEquals("Values are not equal", ss.get("1000111000000111011111"),
+        "111000");
   }
 }

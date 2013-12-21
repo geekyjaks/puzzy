@@ -30,12 +30,14 @@ public class ReverseSentenceTest {
   @Test
   public void testReverse() {
     ReverseSentence rs = new ReverseSentence();
-    assertEquals("Values are not equal", rs.get("repeat these words"), "words these repeat");
+    assertEquals("Values are not equal", rs.get("repeat these words"),
+        "words these repeat");
   }
 
   @Test
   public void testMoreSpaces() {
     ReverseSentence rs = new ReverseSentence();
-    assertEquals("Values are not equal", rs.get("repeat these  words"), "words  these repeat");
+    assertEquals("Values are not equal", rs.get("repeat these  words"),
+        "words  these repeat");
   }
 }
