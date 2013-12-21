@@ -2,10 +2,18 @@ package com.geekyjaks.puzzy.array;
 
 import java.util.Stack;
 
+/**
+ * Solution for {@link http://www.careercup.com/question?id=5096672887570432}
+ * 
+ * @author geekyjaks
+ */
 public class FindNegativeSet {
 
   public int[] find(int[] data) {
 
+    if (data == null || data.length <=1)
+      return new int[] {};
+    
     int sum = 0;
     for (int index = 0; index < data.length; index++)
       sum += data[index];

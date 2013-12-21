@@ -1,6 +1,7 @@
 package com.geekyjaks.puzzy.linkedlist;
 
 /**
+ * Solution to {@link http://www.careercup.com/question?id=5205047260479488}.
  * Reverses a Linked List
  * 
  * @author geekyjaks
