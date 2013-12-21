@@ -62,9 +62,4 @@ public class SubSequence {
 
     return data.substring(start, end);
   }
-
-  public static void main(String[] args) {
-    SubSequence seq = new SubSequence();
-    System.out.println(seq.get("111001110011100011100"));
-  }
 }

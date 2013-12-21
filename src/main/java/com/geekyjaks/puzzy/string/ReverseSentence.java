@@ -40,9 +40,4 @@ public class ReverseSentence {
     }
     return new String(reversed);
   }
-
-  public static void main(String[] args) {
-    ReverseSentence rs = new ReverseSentence();
-    System.out.println(rs.get("repeat these words to reverse the sentence "));
-  }
 }
