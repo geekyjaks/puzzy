@@ -21,16 +21,17 @@ public class FindPairsWithMinDifferenceTest {
   @Test
   public void testLengthOne() {
     FindPairsWithMinDifference fpwmd = new FindPairsWithMinDifference();
-    assertNull(fpwmd.find(new int[]{}));
+    assertNull(fpwmd.find(new int[] {}));
   }
-  
+
   @Test
   public void testOne() {
     FindPairsWithMinDifference fpwmd = new FindPairsWithMinDifference();
     List<Pair> result = new ArrayList<>();
     result.add(new Pair(-100, -90));
     result.add(new Pair(10, 20));
-    assertEquals(result, fpwmd.find(new int[]{-100, 10, 20, -90, 40, 60, 100, 200}));
+    assertEquals(result,
+        fpwmd.find(new int[] { -100, 10, 20, -90, 40, 60, 100, 200 }));
   }
 
 }

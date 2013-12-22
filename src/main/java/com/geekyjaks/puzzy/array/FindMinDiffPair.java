@@ -17,8 +17,8 @@ public class FindMinDiffPair {
     int i, j;
     int x, y;
 
-    QuickSort.sort(a, 0, a.length - 1);
-    QuickSort.sort(b, 0, b.length - 1);
+    QuickSort.sort(a);
+    QuickSort.sort(b);
 
     i = j = 0;
     x = y = Integer.MIN_VALUE;

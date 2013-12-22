@@ -26,7 +26,7 @@ public class FindPairsWithMinDifference {
     start = 0;
     end = start + 1;
 
-    QuickSort.sort(data, 0, data.length - 1);
+    QuickSort.sort(data);
 
     while (end < data.length) {
       if (data[end] - data[start] < min) {

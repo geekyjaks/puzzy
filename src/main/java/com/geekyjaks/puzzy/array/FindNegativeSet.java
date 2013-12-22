@@ -21,7 +21,7 @@ public class FindNegativeSet {
     if (sum % 2 == 1)
       return new int[] {};
 
-    QuickSort.sort(data, 0, data.length - 1);
+    QuickSort.sort(data);
 
     Stack<Integer> stack = new Stack<>();
     int negsum = 0;

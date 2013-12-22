@@ -10,7 +10,7 @@ public class FindPairWithDifference {
 
   public int find(int[] data, int diff) {
 
-    QuickSort.sort(data, 0, data.length - 1);
+    QuickSort.sort(data);
 
     int count = 0;
     int end = data.length - 1;
