@@ -5,7 +5,7 @@ package com.geekyjaks.puzzy.array;
  */
 public class QuickSort {
 
-  private int partition(int[] data, int start, int end) {
+  private static int partition(int[] data, int start, int end) {
 
     int pivot = data[end];
     int position = start - 1;
@@ -27,7 +27,7 @@ public class QuickSort {
     return position;
   }
 
-  public void sort(int[] data, int start, int end) {
+  public static void sort(int[] data, int start, int end) {
     if (start < end) {
       int pivot = partition(data, start, end);
       sort(data, start, pivot - 1);

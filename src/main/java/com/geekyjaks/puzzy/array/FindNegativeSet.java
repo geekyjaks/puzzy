@@ -11,9 +11,9 @@ public class FindNegativeSet {
 
   public int[] find(int[] data) {
 
-    if (data == null || data.length <=1)
+    if (data == null || data.length <= 1)
       return new int[] {};
-    
+
     int sum = 0;
     for (int index = 0; index < data.length; index++)
       sum += data[index];
@@ -21,8 +21,7 @@ public class FindNegativeSet {
     if (sum % 2 == 1)
       return new int[] {};
 
-    QuickSort qs = new QuickSort();
-    qs.sort(data, 0, data.length - 1);
+    QuickSort.sort(data, 0, data.length - 1);
 
     Stack<Integer> stack = new Stack<>();
     int negsum = 0;
